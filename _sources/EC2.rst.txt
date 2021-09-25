@@ -1,0 +1,23 @@
+.. index::
+===================
+Working with EC2
+===================
+.. image:: images/amazon-ec2.png
+  :width: 400
+  :alt: EC2
+.. toctree::
+   :maxdepth: 2
+   
+
+Learning Goals
+===============
+1. Be able to create EC2 instance
+2. Learn how to create key pairs and SSH into VMs
+3. Be able to create AMI and EC2 instances from AMI
+
+
+Things Needed
+=================
+1. Be able to create EC2 instance
+2. Learn how to create key pairs and SSH into VMs
+3. Be able to create AMI and EC2 instances from AMI

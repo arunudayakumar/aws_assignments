@@ -3,16 +3,13 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to AWS-learning's Documentation!
+Welcome to aws-learning's documentation!
 ========================================
-.. image:: images/amazon-ec2.png
-  :width: 400
-  :alt: EC2
+
 .. toctree::
    :maxdepth: 2
+   :caption: Contents:   
    
-   EC2
-   EC2+EBS
    
 
 
@@ -24,7 +21,9 @@ Indices and tables
 * :ref:`modindex`
 * :ref:`search`
 
+.. toctree::
 
-   
+   foo
+   bar
 
 
