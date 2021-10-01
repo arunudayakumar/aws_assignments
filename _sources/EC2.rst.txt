@@ -21,3 +21,81 @@ Things Needed
 1. Be able to create EC2 instance
 2. Learn how to create key pairs and SSH into VMs
 3. Be able to create AMI and EC2 instances from AMI
+
+Launching EC2 Instances
+-------------------------
+.. image:: images/lab_1/1.png
+  :width: 1000
+  :alt: EC2
+  
+Choose Amazon Machine Image
+-----------------------------
+.. image:: images/lab_1/2.png
+  :width: 1000
+  :alt: EC2
+  
+Choose Instance Type
+-----------------------------
+.. image:: images/lab_1/3.png
+  :width: 1000
+  :alt: EC2
+  
+Configure Instance Details
+-----------------------------
+.. image:: images/lab_1/4.png
+  :width: 1000
+  :alt: EC2
+  
+Add Storage
+-----------------------------
+.. image:: images/lab_1/5.png
+  :width: 1000
+  :alt: EC2
+  
+Add Tags
+-----------------------------
+.. image:: images/lab_1/6.png
+  :width: 1000
+  :alt: EC2
+  
+Configure Security Group
+-----------------------------
+.. image:: images/lab_1/7.png
+  :width: 1000
+  :alt: EC2
+  
+Review Instance Launch
+-----------------------------
+.. image:: images/lab_1/8.png
+  :width: 1000
+  :alt: EC2
+  
+Select an existing key pair
+-----------------------------
+.. image:: images/lab_1/9.png
+  :width: 1000
+  :alt: EC2
+  
+Connecting to the Instance using SSH
+---------------------------------------
+.. image:: images/lab_1/10.png
+  :width: 1000
+  :alt: EC2
+  
+Sudo Update
+---------------------------------------
+.. image:: images/lab_1/11.png
+  :width: 1000
+  :alt: EC2
+  
+Install Apache
+---------------------------------------
+.. image:: images/lab_1/12.png
+  :width: 1000
+  :alt: EC2
+  
+Ping Apache server
+---------------------------------------
+.. image:: images/lab_1/13.png
+  :width: 1000
+  :alt: EC2

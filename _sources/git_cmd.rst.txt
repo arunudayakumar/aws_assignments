@@ -9,13 +9,20 @@ git push -u origin main
 
 
 …or push an existing repository from the command line
+git add .
+git commit -m "added no jekyll"
 git remote add origin https://github.com/arunudayakumar/aws_assignments.git
 git branch -M main
-git push -u origin main
+#git push -u origin main
+git push -f origin main
 
-
+Username for 'https://github.com': arunu2002
+Password for 'https://arunu2002@github.com':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
 ---------
 First time git command:
 git config --global user.email "arunu2002@gmail.com"
 git config --global user.name "Arun"
 git config --list
+
+-----------
+sphinx-build -b html source/ build/
