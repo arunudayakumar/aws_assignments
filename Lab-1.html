@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
   <head>
     <meta charset="utf-8" />
-    <title>Working with EC2 (Lab-1) &#8212; aws-learning 1.0 documentation</title>
+    <title>Working with EC2 &#8212; aws-learning 1.0 documentation</title>
     <link rel="stylesheet" href="_static/groundwork.css" type="text/css" />
     <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
     <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
@@ -38,89 +38,78 @@
         <div class="bodywrapper">
           <div class="body" role="main">
             
-  <div class="section" id="working-with-ec2-lab-1">
-<h1>Working with EC2 (Lab-1)<a class="headerlink" href="#working-with-ec2-lab-1" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="working-with-ec2">
+<h1>Working with EC2<a class="headerlink" href="#working-with-ec2" title="Permalink to this headline">¶</a></h1>
 <a class="reference internal image-reference" href="_images/amazon-ec2.png"><img alt="EC2" src="_images/amazon-ec2.png" style="width: 400px;" /></a>
 <div class="toctree-wrapper compound">
 </div>
-<p>Learning Goals</p>
+<div class="section" id="learning-goals">
+<h2>Learning Goals<a class="headerlink" href="#learning-goals" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Be able to create EC2 instance</p></li>
 <li><p>Learn how to create key pairs and SSH into VMs</p></li>
 <li><p>Be able to create AMI and EC2 instances from AMI</p></li>
 </ol>
-<p>Things Needed</p>
+</div>
+<div class="section" id="things-needed">
+<h2>Things Needed<a class="headerlink" href="#things-needed" title="Permalink to this headline">¶</a></h2>
 <ol class="arabic simple">
 <li><p>Be able to create EC2 instance</p></li>
 <li><p>Learn how to create key pairs and SSH into VMs</p></li>
 <li><p>Be able to create AMI and EC2 instances from AMI</p></li>
 </ol>
-<div class="section" id="creating-ec2-instance-and-configuring-apache">
-<h2>1) Creating EC2 Instance and Configuring Apache<a class="headerlink" href="#creating-ec2-instance-and-configuring-apache" title="Permalink to this headline">¶</a></h2>
-<p>Launching EC2 Instances</p>
+</div>
+<div class="section" id="launching-ec2-instances">
+<h2>Launching EC2 Instances<a class="headerlink" href="#launching-ec2-instances" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/1.png"><img alt="EC2" src="_images/1.png" style="width: 1000px;" /></a>
-<p>Choose Amazon Machine Image</p>
+</div>
+<div class="section" id="choose-amazon-machine-image">
+<h2>Choose Amazon Machine Image<a class="headerlink" href="#choose-amazon-machine-image" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/2.png"><img alt="EC2" src="_images/2.png" style="width: 1000px;" /></a>
-<p>Choose Instance Type</p>
+</div>
+<div class="section" id="choose-instance-type">
+<h2>Choose Instance Type<a class="headerlink" href="#choose-instance-type" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/3.png"><img alt="EC2" src="_images/3.png" style="width: 1000px;" /></a>
-<p>Configure Instance Details</p>
+</div>
+<div class="section" id="configure-instance-details">
+<h2>Configure Instance Details<a class="headerlink" href="#configure-instance-details" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/4.png"><img alt="EC2" src="_images/4.png" style="width: 1000px;" /></a>
-<p>Add Storage</p>
+</div>
+<div class="section" id="add-storage">
+<h2>Add Storage<a class="headerlink" href="#add-storage" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/5.png"><img alt="EC2" src="_images/5.png" style="width: 1000px;" /></a>
-<p>Add Tags</p>
+</div>
+<div class="section" id="add-tags">
+<h2>Add Tags<a class="headerlink" href="#add-tags" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/6.png"><img alt="EC2" src="_images/6.png" style="width: 1000px;" /></a>
-<p>Configure Security Group</p>
+</div>
+<div class="section" id="configure-security-group">
+<h2>Configure Security Group<a class="headerlink" href="#configure-security-group" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/7.png"><img alt="EC2" src="_images/7.png" style="width: 1000px;" /></a>
-<p>Review Instance Launch</p>
+</div>
+<div class="section" id="review-instance-launch">
+<h2>Review Instance Launch<a class="headerlink" href="#review-instance-launch" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/8.png"><img alt="EC2" src="_images/8.png" style="width: 1000px;" /></a>
-<p>Select an existing key pair</p>
+</div>
+<div class="section" id="select-an-existing-key-pair">
+<h2>Select an existing key pair<a class="headerlink" href="#select-an-existing-key-pair" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/9.png"><img alt="EC2" src="_images/9.png" style="width: 1000px;" /></a>
-<p>Connecting to the Instance using SSH</p>
+</div>
+<div class="section" id="connecting-to-the-instance-using-ssh">
+<h2>Connecting to the Instance using SSH<a class="headerlink" href="#connecting-to-the-instance-using-ssh" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/10.png"><img alt="EC2" src="_images/10.png" style="width: 1000px;" /></a>
-<p>Sudo Update</p>
+</div>
+<div class="section" id="sudo-update">
+<h2>Sudo Update<a class="headerlink" href="#sudo-update" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/11.png"><img alt="EC2" src="_images/11.png" style="width: 1000px;" /></a>
-<p>Install Apache</p>
+</div>
+<div class="section" id="install-apache">
+<h2>Install Apache<a class="headerlink" href="#install-apache" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/12.png"><img alt="EC2" src="_images/12.png" style="width: 1000px;" /></a>
-<p>Ping Apache server</p>
+</div>
+<div class="section" id="ping-apache-server">
+<h2>Ping Apache server<a class="headerlink" href="#ping-apache-server" title="Permalink to this headline">¶</a></h2>
 <a class="reference internal image-reference" href="_images/13.png"><img alt="EC2" src="_images/13.png" style="width: 1000px;" /></a>
-</div>
-<div class="section" id="creating-ami-from-available-ec2-instance">
-<h2>2) Creating AMI from available EC2 Instance<a class="headerlink" href="#creating-ami-from-available-ec2-instance" title="Permalink to this headline">¶</a></h2>
-<p>Creating AMI from existing EC2 instance</p>
-<a class="reference internal image-reference" href="_images/14.png"><img alt="EC2" src="_images/14.png" style="width: 1000px;" /></a>
-<p>Assigning name to AMI</p>
-<a class="reference internal image-reference" href="_images/15.png"><img alt="EC2" src="_images/15.png" style="width: 1000px;" /></a>
-<a class="reference internal image-reference" href="_images/16.png"><img alt="EC2" src="_images/16.png" style="width: 1000px;" /></a>
-</div>
-<div class="section" id="connecting-ec2-instance-with-ami">
-<h2>3) Connecting EC2 instance with AMI<a class="headerlink" href="#connecting-ec2-instance-with-ami" title="Permalink to this headline">¶</a></h2>
-<p>Launching EC2 with AMI</p>
-<a class="reference internal image-reference" href="_images/17.png"><img alt="EC2" src="_images/17.png" style="width: 1000px;" /></a>
-<p>Only Security Group configuration changes</p>
-<p>Since the site is already hosted in Apache2, we need not connect using ssh.</p>
-<a class="reference internal image-reference" href="_images/18.png"><img alt="EC2" src="_images/18.png" style="width: 1000px;" /></a>
-<p>Review Instance Launch</p>
-<a class="reference internal image-reference" href="_images/19.png"><img alt="EC2" src="_images/19.png" style="width: 1000px;" /></a>
-<p>No Key pair required, since we are not connecting it using ssh</p>
-<a class="reference internal image-reference" href="_images/20.png"><img alt="EC2" src="_images/20.png" style="width: 1000px;" /></a>
-<p>New EC2 from AMI is created</p>
-<a class="reference internal image-reference" href="_images/21.png"><img alt="EC2" src="_images/21.png" style="width: 1000px;" /></a>
-<p>Pinging Apache2</p>
-<a class="reference internal image-reference" href="_images/22.png"><img alt="EC2" src="_images/22.png" style="width: 1000px;" /></a>
-</div>
-<div class="section" id="cleanup">
-<h2>4) Cleanup<a class="headerlink" href="#cleanup" title="Permalink to this headline">¶</a></h2>
-<p>Terminating EC2 Instances</p>
-<a class="reference internal image-reference" href="_images/23.png"><img alt="EC2" src="_images/23.png" style="width: 1000px;" /></a>
-<a class="reference internal image-reference" href="_images/24.png"><img alt="EC2" src="_images/24.png" style="width: 400px;" /></a>
-<p>Checking Volumes in EBS after EC2 Termination</p>
-<a class="reference internal image-reference" href="_images/25.png"><img alt="EC2" src="_images/25.png" style="width: 1000px;" /></a>
-<p>Deregistering AMI</p>
-<a class="reference internal image-reference" href="_images/26.png"><img alt="EC2" src="_images/26.png" style="width: 1000px;" /></a>
-<a class="reference internal image-reference" href="_images/27.png"><img alt="EC2" src="_images/27.png" style="width: 400px;" /></a>
-<p>Deleting Snapshot</p>
-<a class="reference internal image-reference" href="_images/28.png"><img alt="EC2" src="_images/28.png" style="width: 1000px;" /></a>
-<a class="reference internal image-reference" href="_images/29.png"><img alt="EC2" src="_images/29.png" style="width: 400px;" /></a>
 </div>
 </div>
 
@@ -132,11 +121,22 @@
         <div class="sphinxsidebarwrapper">
   <h3><a href="index.html">Table of Contents</a></h3>
   <ul>
-<li><a class="reference internal" href="#">Working with EC2 (Lab-1)</a><ul>
-<li><a class="reference internal" href="#creating-ec2-instance-and-configuring-apache">1) Creating EC2 Instance and Configuring Apache</a></li>
-<li><a class="reference internal" href="#creating-ami-from-available-ec2-instance">2) Creating AMI from available EC2 Instance</a></li>
-<li><a class="reference internal" href="#connecting-ec2-instance-with-ami">3) Connecting EC2 instance with AMI</a></li>
-<li><a class="reference internal" href="#cleanup">4) Cleanup</a></li>
+<li><a class="reference internal" href="#">Working with EC2</a><ul>
+<li><a class="reference internal" href="#learning-goals">Learning Goals</a></li>
+<li><a class="reference internal" href="#things-needed">Things Needed</a></li>
+<li><a class="reference internal" href="#launching-ec2-instances">Launching EC2 Instances</a></li>
+<li><a class="reference internal" href="#choose-amazon-machine-image">Choose Amazon Machine Image</a></li>
+<li><a class="reference internal" href="#choose-instance-type">Choose Instance Type</a></li>
+<li><a class="reference internal" href="#configure-instance-details">Configure Instance Details</a></li>
+<li><a class="reference internal" href="#add-storage">Add Storage</a></li>
+<li><a class="reference internal" href="#add-tags">Add Tags</a></li>
+<li><a class="reference internal" href="#configure-security-group">Configure Security Group</a></li>
+<li><a class="reference internal" href="#review-instance-launch">Review Instance Launch</a></li>
+<li><a class="reference internal" href="#select-an-existing-key-pair">Select an existing key pair</a></li>
+<li><a class="reference internal" href="#connecting-to-the-instance-using-ssh">Connecting to the Instance using SSH</a></li>
+<li><a class="reference internal" href="#sudo-update">Sudo Update</a></li>
+<li><a class="reference internal" href="#install-apache">Install Apache</a></li>
+<li><a class="reference internal" href="#ping-apache-server">Ping Apache server</a></li>
 </ul>
 </li>
 </ul>
@@ -150,7 +150,7 @@
   <div role="note" aria-label="source link">
     <h3>This Page</h3>
     <ul class="this-page-menu">
-      <li><a href="_sources/EC2.rst.txt"
+      <li><a href="_sources/Lab-1.rst.txt"
             rel="nofollow">Show Source</a></li>
     </ul>
    </div>
